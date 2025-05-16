@@ -1,0 +1,59 @@
+.cal-sans-regular {
+  font-family: "Cal Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-family: "Cal Sans", sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+section {
+    padding: 15%;
+    text-align: left;
+}
+.container span {
+    opacity: 0;
+    transform: translateY(50px);
+    animation: floatIn 1s ease-out forwards;
+
+}
+span {
+    display: inline-block;
+    font-size: 3rem;
+    margin-right: 0.7rem;
+}
+@keyframes floatIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+.container span:nth-child(1) {
+    animation-delay: 0.2s;
+}
+.container span:nth-child(2) {
+    animation-delay: 0.4s;
+}
+.container span:nth-child(3) {
+    animation-delay: 0.6s;
+}
+.container span:nth-child(4) {
+    animation-delay: 1.0s;
+}
+.container span:nth-child(5) {
+    animation-delay: 1.2s;
+}
+.container span:nth-child(6) {
+    animation-delay: 1.4s;
+}
+.container span:nth-child(7) {
+    animation-delay: 1.9s;
+}
